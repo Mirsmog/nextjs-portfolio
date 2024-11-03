@@ -1,8 +1,10 @@
+import { LINK_SECTIONS } from "@/constants";
+
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "About", link: LINK_SECTIONS.about },
+  { name: "Projects", link: LINK_SECTIONS.projects },
+  { name: "Testimonials", link: LINK_SECTIONS.testimonials },
+  { name: "Contact", link: LINK_SECTIONS.contact },
 ];
 
 export const gridItems = [
